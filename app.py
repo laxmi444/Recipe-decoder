@@ -9,7 +9,7 @@ from PIL import Image
 import tensorflow as tf
 import numpy as np
 import markdown
-
+ 
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
