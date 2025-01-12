@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
 API_KEYS = {
-    'GEMINI_API_KEY': 'AIzaSyBtaFBbyMrh7Sk7I2Bcf1e4_oH3NJt8z38'  # Replace with your actual API key
+    'GEMINI_API_KEY': ''  #  your actual API key
 }
 GEMINI_API_KEY = API_KEYS.get('GEMINI_API_KEY')
 if not GEMINI_API_KEY:
